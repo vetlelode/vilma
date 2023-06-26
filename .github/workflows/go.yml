@@ -22,6 +22,8 @@ jobs:
         go-version: 1.20
     - name: ls
       run: ls ~/work/vilma/vilma
+    - name: cd
+      run: cd ~/work/vilma/vilma
     - name: Build
-      run: go build ~/work/vilma/vilma/
+      run: go build 
 
