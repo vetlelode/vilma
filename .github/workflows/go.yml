@@ -23,5 +23,5 @@ jobs:
     - name: ls
       run: ls ~/work/vilma/vilma
     - name: Build
-      run: go build ~/work/vilma/vilma
+      run: go build ~/work/vilma/vilma/
 
